@@ -3,7 +3,7 @@ Python (numpy) implementation of Simplex method for linear programming problems 
 
 This is an implementation of simplex's algorithm for linear programming maximization and minimization problems made by the baby programmer that I am.
 I would like y'all to test this code, help me fuguring out how to improve this implementation and please report any problem you got with the code.
-Good to notice that this implementation miss test and will surely shows lakes and problems with some problems.
+Good to notice that this implementation miss test and will surely shows lacks with some problems.
 However it proved a certain consistency.
 
 Better provide the cannonical form's coefficients of problems you wanna solve with it
