@@ -20,4 +20,4 @@ Min z = cT x
   Ax ≥ b
   x ≥ 0
 
-You can report issues and send feedbacks to this email: yacoudiarra.wl@gmail.com
+You can report issues here and send feedbacks to this email: yacoudiarra.wl@gmail.com
