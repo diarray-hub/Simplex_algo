@@ -1,11 +1,13 @@
-"""
-Miscellaneous functions I can look for:
-    <<round>>: to round to the nearest int, <<math.ceil>>: to round up, <<math.floor>>: to round down 
-    <<math.gcd>>: to find greatest common divisor and <<math.lcm>>: to find leastest commun multiple
-examples:
-    lambda x,y: x if x>y else y  #lambda is a method for quickly built and assign easy functions
-    filter(lambda x: x%2==0,range(11))  #to filt something with respect to a condition 
-"""
+# A function to insert multiple items at precise indexes in a list
+def multinsert(list1, indexes, items):
+    if type(items) is list:
+        for (index, item) in zip(indexes, items):
+            list1.insert(index, item)
+        return list1
+    else:
+        for index in indexes:
+            list1.insert(index, items)
+        return list1
 
 # A function which return all divisor of a positive number
 def list_div(n):
@@ -56,17 +58,6 @@ def all_positive(iterable):
         if item < 0:
             return False
     return True
-
-# A function to insert multiple items at precise indexes in a list
-def multinsert(list1, indexes, items):
-    if type(items) is list:
-        for (index, item) in zip(indexes, items):
-            list1.insert(index, item)
-        return list1
-    else:
-        for index in indexes:
-            list1.insert(index, items)
-        return list1
 
 # An implementation of Zeller's algorithm
 def Zeller_algorithm(day, month, year):
