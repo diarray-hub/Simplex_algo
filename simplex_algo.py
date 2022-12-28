@@ -45,7 +45,8 @@ def SAM(of, restrictions, biases, mode, Dual):
         thus 'restrictions' items must have the same shape which testify of the number of primary variables
         'biases' is a list of bias related to each restrictions
         'of' is a list coefs related to each primary variables in the objective function
-        'Dual' is a bool to decide returning Dual solutions
+        'Dual'(optionnal) is a bool to decide returning Dual solutions (by default Dual=False)
+        'mode'(optionnal) is the kind of problem you wanna solve "max" or "min" (by default mode='max')
     """
     begin = time.time()
     #Number of columns, NB: number of rows are explicitly defined creating "matrix"
