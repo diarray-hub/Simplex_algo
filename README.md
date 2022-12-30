@@ -1,6 +1,6 @@
 You can install and use my package for this implementation just by typing:
 pip install diarray-simplex
-in a terminal, note that while this package name is diarray-simplex the module name remind simplex_algo (To use it you have to import "simplex_algo" not "diarray-simplex"). Use it like below:
+in a terminal, note that while this package name is diarray-simplex the module name remain simplex_algo (To use it you have to import "simplex_algo" not "diarray-simplex"). Use it like below:
 
 import simplex_algo
     simplex_algo.simplex(of, restrictions, biases, mode, Dual)
